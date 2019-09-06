@@ -7,6 +7,7 @@ Playground for all K*
 - [Instructions for installing RHEL8 on Hyper-V][1]
   - Modified to assign a static MAC address to each VM
   - Modified to select Server base environment
+  - sudo dnf module install go-toolset rust-toolset
 - [Kubernetes installation][2]
   - Disable swap: comment out swap partition in /etc/fstab
     - swapoff -a
